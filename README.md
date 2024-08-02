@@ -1,1 +1,3 @@
-# understanding-ts
+# understanding-typescript
+
+TypeScript + React or Node
