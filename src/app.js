@@ -1,3 +1,6 @@
+// const userName = 'Sejin';
+// // userName  = 'SejinPark';
+// let age = 23;
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -18,10 +21,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
-var userName = 'Sejin';
-// userName  = 'SejinPark';
-var age = 23;
-age = 22;
+// age = 22; 
 // function add(a:number, b:number) {
 //   let result;
 //   result = a + b;
@@ -43,7 +43,7 @@ var hobbies = ['Sports', 'Cookingnpm'];
 var activeHobbies = __spreadArray(['Hiking'], hobbies, true);
 activeHobbies.push.apply(activeHobbies, hobbies);
 var person = {
-    name: 'Max',
+    firstName: 'Max',
     age: 30,
 };
 var copiedPerson = __assign({}, person);
@@ -58,3 +58,7 @@ var add = function () {
 };
 var addedNumber = add(5, 10, 2, 3.7);
 console.log(addedNumber);
+var hobby1 = hobbies[0], hobby2 = hobbies[1], remainingHobbies = hobbies.slice(2);
+console.log(hobbies, hobby1, hobby2);
+var userName = person.firstName, age = person.age;
+console.log(userName, age, person);
